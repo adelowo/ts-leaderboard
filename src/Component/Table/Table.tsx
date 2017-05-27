@@ -13,7 +13,7 @@ class Table extends BaseComponent<UsersProps, null> {
   doRender(): React.ReactElement<{}> {
 
     return (
-      <table className="table table-stripped table-hover">
+      <table className="table table-stripped table-hover drop">
       <thead>
         <tr>
         <th> S/N</th>

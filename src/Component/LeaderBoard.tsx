@@ -17,6 +17,7 @@ class LeaderBoard extends BaseComponent<LeaderBoardProps, LeaderState> {
   constructor(props: LeaderBoardProps) {
     super(props);
     this.state = {data: []};
+    this.fetchCampers = this.fetchCampers.bind(this);
     this.fetchCampers();
   }
 

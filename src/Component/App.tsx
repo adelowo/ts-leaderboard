@@ -18,7 +18,7 @@ class App extends BaseComponent<AppProps, null> {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Free codecamp Leadership board implementation in Typescript</h2>
+          <h2 className="pad">Free codecamp Leadership board implementation in Typescript</h2>
         </div>
         <p className="App-intro">
                 <LeaderBoard client={this.props.client} />
