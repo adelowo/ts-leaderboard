@@ -4,6 +4,14 @@ body {
   font-family: sans-serif;
 }
 
+.drop {
+  margin-top: 20px;
+}
+
+.pad {
+  padding-bottom: 20px;
+}
+
 .loading-indicator {
   margin-top: 100px;
 }
